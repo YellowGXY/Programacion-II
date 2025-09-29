@@ -5,9 +5,12 @@ public class Tigre {
     double masa;
 
     public void detalle(){
-        System.out.println("tigre1.especie : " + especie);
-        System.out.println("tigre1.edad : " + edad + " años");
-        System.out.println("tigre1.tamanio : " + tamanio);
-        System.out.println("tigre1.masa : " + masa + " Kg");
+        for (int i = 1 ; i <= 1 ; i++){
+            System.out.println("tigre" + i + ".especie : " + especie);
+            System.out.println("tigre" + i + ".edad : " + edad + " años");
+            System.out.println("tigre" + i + ".tamanio : " + tamanio);
+            System.out.println("tigre" + i + ".masa : " + masa + " Kg");
+        }
+
     }
 }

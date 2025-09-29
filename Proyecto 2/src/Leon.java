@@ -5,9 +5,11 @@ public class Leon {
     double masa;
 
     public void detalle(){
-        System.out.println("leon1.especie : " + especie);
-        System.out.println("leon1.edad : " + edad + " años");
-        System.out.println("leon1.tamanio : " + tamanio);
-        System.out.println("leon1.masa : " + masa + " Kg");
+        for (int i = 1 ; i <= 1 ; i++) {
+            System.out.println("leon" + i + ".especie : " + especie);
+            System.out.println("leon" + i + ".edad : " + edad + " años");
+            System.out.println("leon" + i + ".tamanio : " + tamanio);
+            System.out.println("leon" + i + ".masa : " + masa + " Kg");
+        }
     }
 }

@@ -3,21 +3,24 @@
 public class Main {
     public static void main(String[] args) {
         // Creaciòn de Objetos
-        Automovil auto1 = new Automovil();
+        Automovil auto2 = new Automovil("BMW",3.2,color, "i320");
 
+        /*
         // Asignar valores a los atributos
         auto1.marca = "BMW";
         auto1.modelo = "i320";
         auto1.color = "Negro";
         auto1.cilindraje = 3.2;
 
-        auto1.detalle();
+         */
+
+        auto2.detalle();
 
         // Desplegar el valor de los Objetos
-        System.out.println("auto1.marca : " + auto1.marca);
-        System.out.println("auto1.modelo : " + auto1.modelo);
-        System.out.println("auto1.color : " + auto1.color);
-        System.out.println("auto1.cilindraje : " + auto1.cilindraje);
+        System.out.println("auto1.marca : " + auto2.marca);
+        System.out.println("auto1.modelo : " + auto2.modelo);
+        System.out.println("auto1.color : " + auto2.color);
+        System.out.println("auto1.cilindraje : " + auto2.cilindraje);
 
         // Creaciòn de Objetos
         Laptop laptop1 = new Laptop();
@@ -26,7 +29,7 @@ public class Main {
         laptop1.marca = "DELL";
         laptop1.modelo = "11330";
         laptop1.color = "Negro";
-        laptop1.procesador = "Intel i7 1165G7";
+        laptop1.procesador = "Intel 11th i7 1165G7";
         laptop1.tamanio = "15 Pulgadas";
 
         // Desplegar el valor de los Objetos

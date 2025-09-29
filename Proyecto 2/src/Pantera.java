@@ -5,9 +5,12 @@ public class Pantera {
     double masa;
 
     public void detalle(){
-        System.out.println("pantera1.especie : " + especie);
-        System.out.println("pantera1.edad : " + edad + " años");
-        System.out.println("pantera1.tamanio : " + tamanio);
-        System.out.println("pantera1.masa : " + masa + " Kg");
+
+        for (int i = 1 ; i <= 1 ; i++) {
+            System.out.println("pantera" + i + ".especie : " + especie);
+            System.out.println("pantera" + i + ".edad : " + edad + " años");
+            System.out.println("pantera" + i + ".tamanio : " + tamanio);
+            System.out.println("pantera" + i + ".masa : " + masa + " Kg");
+        }
     }
 }

@@ -4,11 +4,26 @@ public class Automovil {
     String color = "Blanco";
     double cilindraje;
 
+    public Automovil() {
+    }
+
+    public Automovil(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+    public Automovil(String marca, double cilindraje, String color, String modelo) {
+        this.marca = marca;
+        this.cilindraje = cilindraje;
+        this.color = color;
+        this.modelo = modelo;
+    }
+
     public void detalle(){
         String modelo = "AUDI";
-        System.out.println("auto1.marca : " + this.marca);
-        System.out.println("auto1.modelo : " + this.modelo);
-        System.out.println("auto1.color : " + this.color);
-        System.out.println("auto1.cilindraje : " + this.cilindraje);
+        System.out.println("marca : " + this.marca);
+        System.out.println("modelo : " + this.modelo);
+        System.out.println("color : " + this.color);
+        System.out.println("cilindraje : " + this.cilindraje);
     }
 }
