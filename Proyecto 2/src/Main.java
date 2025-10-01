@@ -1,16 +1,37 @@
+import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("");
         System.out.println("INFO TIGRE");
         System.out.println("");
         // Creaciòn de Objetos
         Tigre tigre1 = new Tigre();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Ingrese ESPECIE : ");
+        tigre1.especie = br.readLine();
+        System.out.println("La especie es : " + tigre1.especie);
+
+        System.out.print("Ingrese EDAD : ");
+        tigre1.edad = Integer.parseInt(br.readLine());
+        System.out.println("La edad es : " + tigre1.edad);
+
+        System.out.print("Ingrese la masa corporal : ");
+        tigre1.masa = Double.parseDouble(br.readLine());
+        System.out.println("La masa corporal es : " + tigre1.masa);
+
+        tigre1.tamanio = JOptionPane.showInputDialog("Ingrese tamaño : ");
+        JOptionPane.showMessageDialog(null,"El tamaño de la especie es: " + tigre1.tamanio);
+
 
         // Asignar valores a los atributos
-        tigre1.especie = "Tigre siberiano";
-        tigre1.edad = 4;
-        tigre1.tamanio = "Mediano";
-        tigre1.masa = 110;
+        // tigre1.especie = "Tigre siberiano";
+        // tigre1.edad = 4;
+        // tigre1.tamanio = "Mediano";
+        // tigre1.masa = 110;
 
         tigre1.detalle();
 
