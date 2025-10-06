@@ -1,20 +1,32 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        // Creaciòn de Objetos
-        Automovil auto2 = new Automovil("BMW",3.2,color, "i320");
+import javax.swing.*;
+import java.util.Scanner;
 
-        /*
+public class Main {
+    /** Declaracion de las propiedades */
+    public static void main(String[] args) {
+
+
+        // Creaciòn de Objetos
+        Automovil auto2 = new Automovil("BMW","i320", 3.6);
+
+
         // Asignar valores a los atributos
+        /*
         auto1.marca = "BMW";
         auto1.modelo = "i320";
         auto1.color = "Negro";
         auto1.cilindraje = 3.2;
-
          */
 
-        auto2.detalle();
+
+        System.out.print("Ingrese color del auto:");
+        Scanner sc = new Scanner(System.in);
+        auto2.color = sc.nextLine();
+
+
+        String color = auto2.detalle(auto2.color);
+        System.out.println(color);
+
 
         // Desplegar el valor de los Objetos
         System.out.println("auto1.marca : " + auto2.marca);
