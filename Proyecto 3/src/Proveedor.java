@@ -26,6 +26,29 @@ public class Proveedor {
     }
 
     /** Metodos de JAVA*/
+    public String getRUC() {
+        return RUC;
+    }
+
+    public void setRUC(String RUC) {
+        this.RUC = RUC;
+    }
+
+    public String getRazonSocial() {
+        return razonSocial;
+    }
+
+    public void setRazonSocial(String razonSocial) {
+        this.razonSocial = razonSocial;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
 
     /** Metodos propios*/
     public String detalleProveedor(String ruc, String rs, String dir) {
