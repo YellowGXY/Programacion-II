@@ -2,9 +2,9 @@ import javax.swing.*;
 
 public class Fecha {
     /** Generacion de atributos */
-    int dia;
-    int mes;
-    int anio;
+    private int dia;
+    private int mes;
+    private int anio;
 
     /** Generacion de constructores */
     public Fecha() {
