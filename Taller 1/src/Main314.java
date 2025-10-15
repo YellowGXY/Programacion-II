@@ -17,12 +17,14 @@ void main() {
     /** Declaración de variables */
 
     int cont = 0;
+    int opcion;
 
     /** Estructura principal del programa */
 
     IO.println("Desea comenzar con el ingreso de la fecha?\n1. Si\n2. No");
+    opcion =Integer.parseInt(sc.nextLine());
 
-    while (Integer.parseInt(sc.nextLine()) == 1) {
+    while (opcion == 1) {
         IO.println();
         IO.println("Comience el ingreso de dia, mes y año.");
         fecha.setDia(Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el dia:")));
@@ -31,11 +33,12 @@ void main() {
 
         fecha.mostrarFecha(fecha.getDia(), fecha.getMes(), fecha.getAnio());
 
-        if (cont == 1){
-            IO.println("Desea seguir con el ingreso de la fecha?\n1. Si\n2. No");
-        }
-
         cont = 1;
+
+        if (cont == 1){
+            IO.println("Desea seguir con el ingreso de otra fecha?\n1. Si\n2. No");
+            opcion =Integer.parseInt(sc.nextLine());
+        }
     }
 
     IO.println("Terminando el proceso.");
