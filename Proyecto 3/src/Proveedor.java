@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.sql.SQLOutput;
 
 public class Proveedor {
     /** Declaracion de atributos*/

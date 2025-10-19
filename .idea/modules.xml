@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Practica 1/Practica 1.iml" filepath="$PROJECT_DIR$/Practica 1/Practica 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Programacion-II.iml" filepath="$PROJECT_DIR$/.idea/Programacion-II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proyecto 1/Proyecto 1.iml" filepath="$PROJECT_DIR$/Proyecto 1/Proyecto 1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Proyecto 2/Proyecto 2.iml" filepath="$PROJECT_DIR$/Proyecto 2/Proyecto 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Proyecto 3/Proyecto 3.iml" filepath="$PROJECT_DIR$/Proyecto 3/Proyecto 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Proyecto 4/Proyecto 4.iml" filepath="$PROJECT_DIR$/Proyecto 4/Proyecto 4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Proyecto1/Proyecto1.iml" filepath="$PROJECT_DIR$/Proyecto1/Proyecto1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Taller 1/Taller 1.iml" filepath="$PROJECT_DIR$/Taller 1/Taller 1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Progreso 1/Talleres/Talleres.iml" filepath="$PROJECT_DIR$/Progreso 1/Talleres/Talleres.iml" />
     </modules>
   </component>
 </project>
