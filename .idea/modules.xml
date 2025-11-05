@@ -1,14 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/Practica 1/Practica 1.iml" filepath="$PROJECT_DIR$/Practica 1/Practica 1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Programacion-II.iml" filepath="$PROJECT_DIR$/.idea/Programacion-II.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Proyecto 1/Proyecto 1.iml" filepath="$PROJECT_DIR$/Proyecto 1/Proyecto 1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Proyecto 2/Proyecto 2.iml" filepath="$PROJECT_DIR$/Proyecto 2/Proyecto 2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Proyecto 3/Proyecto 3.iml" filepath="$PROJECT_DIR$/Proyecto 3/Proyecto 3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Proyecto 4/Proyecto 4.iml" filepath="$PROJECT_DIR$/Proyecto 4/Proyecto 4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Taller 1/Taller 1.iml" filepath="$PROJECT_DIR$/Taller 1/Taller 1.iml" />
-    </modules>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6e99a5d-d0b3-4557-9159-e786806abb7a" name="Changes" comment="S6" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "YellowGXY"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/YellowGXY/Programacion-II.git",
+    "accountId": "597acaa2-e608-4acd-8377-5a28db7a39d4"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="354XvWJP8m0pidoqjcHxZhO190F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Gabriel.DESKTOP-B3RFQDV/Downloads/Programacion-II/Progreso 2/pooHerencia/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel.DESKTOP-B3RFQDV\Downloads\Programacion-II\Progreso 2" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6e99a5d-d0b3-4557-9159-e786806abb7a" name="Changes" comment="" />
+      <created>1762370548709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762370548709</updated>
+    </task>
+    <task id="LOCAL-00001" summary="S6">
+      <option name="closed" value="true" />
+      <created>1762371076133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762371076133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="S6" />
+    <option name="LAST_COMMIT_MESSAGE" value="S6" />
   </component>
 </project>
