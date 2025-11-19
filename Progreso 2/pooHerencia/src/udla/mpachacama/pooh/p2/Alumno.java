@@ -10,7 +10,7 @@ public class Alumno extends Persona{
     public Alumno() {
     }
 
-    public Alumno(String nombre, String apellido, int edad, String genero, String materia, double notap1, double notap2, double notap3) {
+    public Alumno(String nombre, String apellido, int edad, Genero genero, String materia, double notap1, double notap2, double notap3) {
         super(nombre, apellido, edad, genero);
         this.notap1 = notap1;
         this.notap2 = notap2;
