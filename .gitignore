@@ -1,0 +1,22 @@
+# Archivos compilados de Java
+*.class
+out/
+target/
+
+# Archivos de configuración de IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Archivos de logs
+*.log
