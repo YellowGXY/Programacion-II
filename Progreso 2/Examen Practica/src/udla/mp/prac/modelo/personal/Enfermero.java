@@ -1,22 +1,27 @@
-package modelo.personal;
+package udla.mp.prac.modelo.personal;
 
-import modelo.paciente.Paciente;
-import enums.Turno;
+import udla.mp.prac.modelo.paciente.Paciente;
+import udla.mp.prac.enums.Turno;
 
 public class Enfermero extends Persona {
-    protected Turno turno;
+    private Turno turno;
+    private String areaAsignada;
 
-    public Enfermero(String nombre, String identificacion, int edad, String telefono, Turno turno) {
+    public Enfermero(String nombre, String identificacion, int edad, String telefono,
+                     Turno turno, String areaAsignada) {
         super(nombre, identificacion, edad, telefono);
         this.turno = turno;
+        this.areaAsignada = areaAsignada;
     }
 
-    public void administrarMedicamento(Paciente paciente, String medicamento) {
-        System.out.println("Enfermero(a) " + nombre + " administró " + medicamento + " a " + paciente.getNombre());
+    public String administrarMedicamento(Paciente paciente, String medicamento) {
+        return "Enfermero(a) " + nombre + " administró " + medicamento + " a " + paciente.getNombre();
     }
 
-    public void tomarSignosVitales(Paciente paciente) {
-        System.out.println("Signos vitales tomados al paciente " + paciente.getNombre());
+    public String tomarSignosVitales(Paciente paciente, String signosVitales) {
+        String registro = "Signos vitales de " + paciente.getNombre() + ": " + signosVitales;
+        paciente.agregarConsulta(registro);
+        return registro;
     }
 
     public Turno getTurno() {
@@ -27,8 +32,16 @@ public class Enfermero extends Persona {
         this.turno = turno;
     }
 
+    public String getAreaAsignada() {
+        return areaAsignada;
+    }
+
+    public void setAreaAsignada(String areaAsignada) {
+        this.areaAsignada = areaAsignada;
+    }
+
     @Override
     public String toString() {
-        return "Enfermero(a) " + nombre + " - Turno: " + turno;
+        return "Enfermero(a) " + nombre + " - Turno: " + turno + ", Área: " + areaAsignada;
     }
 }
