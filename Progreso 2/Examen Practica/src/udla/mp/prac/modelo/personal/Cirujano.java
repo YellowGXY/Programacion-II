@@ -1,14 +1,15 @@
-package modelo.personal;
+package udla.mp.prac.modelo.personal;
 
-import modelo.paciente.Paciente;
+import udla.mp.prac.modelo.paciente.Paciente;
 import java.time.LocalDateTime;
 
 public class Cirujano extends Medico {
     protected double costoAdicionalProcedimiento;
 
     public Cirujano(String nombre, String identificacion, int edad, String telefono,
-                    String especialidad, double costoConsultaBase, double costoAdicionalProcedimiento) {
-        super(nombre, identificacion, edad, telefono, especialidad, costoConsultaBase);
+                    String especialidad, int añosExperiencia, String licenciaMedica, 
+                    double costoConsultaBase, double costoAdicionalProcedimiento) {
+        super(nombre, identificacion, edad, telefono, especialidad, añosExperiencia, licenciaMedica, costoConsultaBase);
         this.costoAdicionalProcedimiento = costoAdicionalProcedimiento;
     }
 

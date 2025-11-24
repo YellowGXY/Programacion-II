@@ -1,4 +1,4 @@
-package modelo.personal;
+package udla.mp.prac.modelo.personal;
 
 public abstract class Persona {
     protected String nombre;

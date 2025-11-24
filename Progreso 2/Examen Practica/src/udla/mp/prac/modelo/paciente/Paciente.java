@@ -1,6 +1,6 @@
-package modelo.paciente;
+package udla.mp.prac.modelo.paciente;
 
-import enums.TipoAfiliacion;
+import udla.mp.prac.enums.TipoAfiliacion;
 import java.util.ArrayList;
 import java.util.List;
 

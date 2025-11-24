@@ -1,11 +1,11 @@
-package gestion;
+package udla.mp.prac.gestion;
 
-import modelo.personal.Medico;
-import modelo.personal.Enfermero;
-import modelo.paciente.Paciente;
-import modelo.cita.CitaMedica;
-import enums.EstadoCita;
-import enums.Turno;
+import udla.mp.prac.modelo.personal.Medico;
+import udla.mp.prac.modelo.personal.Enfermero;
+import udla.mp.prac.modelo.paciente.Paciente;
+import udla.mp.prac.modelo.cita.CitaMedica;
+import udla.mp.prac.enums.EstadoCita;
+import udla.mp.prac.enums.Turno;
 import java.util.ArrayList;
 import java.util.List;
 
