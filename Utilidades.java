@@ -523,7 +523,11 @@ public class Utilidades {
     // ═══════════════════════════════════════════════════════════════════
     
     /**
+<<<<<<< HEAD
      * Ordena un array de enteros de MENOR A MAYOR (Metodo Burbuja).
+=======
+     * Ordena un array de enteros de MENOR A MAYOR (Método Burbuja).
+>>>>>>> 729a9c87836a363231ba77c29a5d264278bbf53d
      * Modifica el array original.
      * Uso: int[] numeros = {5, 2, 8, 1};
      *      ordenarArrayAscendente(numeros);  // [1, 2, 5, 8]
