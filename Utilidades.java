@@ -524,7 +524,11 @@ public class Utilidades {
     
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Ordena un array de enteros de MENOR A MAYOR (Metodo Burbuja).
+=======
+     * Ordena un array de enteros de MENOR A MAYOR (Método Burbuja).
+>>>>>>> 729a9c87836a363231ba77c29a5d264278bbf53d
 =======
      * Ordena un array de enteros de MENOR A MAYOR (Método Burbuja).
 >>>>>>> 729a9c87836a363231ba77c29a5d264278bbf53d
